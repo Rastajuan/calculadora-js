@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculadora</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <h1>CALCULADORA CON JS</h1>
-  <main>
-    <div class="container"> 
 
-    </div>
-  </main>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <h1>CALCULADORA BÁSICA CON JS</h1>
+  <div class="calculadora">
+    <div class="pantalla" id="pantalla"></div>
+    <ul id="botones" class="botones">
+      <li><a href="#" data-key="clear" class="clear">C</a></li>
+      <li><a href="#" data-key="-">-</a></li>
+      <li><a href="#" data-key="/">/</a></li>
+      <li><a href="#" data-key="*">x</a></li>
+      <li><a href="#" data-key="7">7</a></li>
+      <li><a href="#" data-key="8">8</a></li>
+      <li><a href="#" data-key="9">9</a></li>
+      <li><a href="#" data-key="-">-</a></li>
+      <li><a href="#" data-key="4">4</a></li>
+      <li><a href="#" data-key="5">5</a></li>
+      <li><a href="#" data-key="6">6</a></li>
+      <li><a href="#" data-key="+">+</a></li>
+      <li><a href="#" data-key="1">1</a></li>
+      <li><a href="#" data-key="2">2</a></li>
+      <li><a href="#" data-key="3">3</a></li>
+      <li><a href="#" data-key="igual" class="igual">=</a></li>
+      <li><a href="#" data-key="0" class="wide shift">0</a></li>
+      <li><a href="#" data-key="." class="shift">.</a></li>
+    </ul>
+  </div>
+
+  <script src="./scripts.js" type="text/javascript"></script>
 </body>
+
 </html>
